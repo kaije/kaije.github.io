@@ -1,0 +1,65 @@
+/* Resets */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
+
+body {
+  font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #424242;
+  text-align: center;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-heading {
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.site-intro {
+  font-weight: 500;
+  color: #a6a6a6;
+}
+
+.site-links {
+  margin-top: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+.site-links a {
+    float: left;
+    color: #a6a6a6;
+    position: relative;
+    padding: 0px 7px;
+    white-space: nowrap;
+}
+
+.site-links a:hover {
+  color: #638a9e;
+}
+
+.site-links a .link-text { 
+  visibility: hidden;
+  font-size: 16px;
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  transform: translate(-50%, 0%); 
+}
+
+.site-links a:hover .link-text { 
+  visibility: visible; 
+}
+
+
