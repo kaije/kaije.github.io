@@ -13,7 +13,7 @@ body {
 
 h1 { 
   text-transform: uppercase;
-  font-size: 4em;
+  font-size: 3em;
   font-weight: bold;
   text-align: center;
   line-height: 1.5;
@@ -25,7 +25,7 @@ a {
 }
 
 .site-intro {
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 500;
   color: #a6a6a6;
 }
@@ -37,7 +37,7 @@ a {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  font-size: 2em;
+  font-size: 1.3em;
 }
 
 .site-links a {
