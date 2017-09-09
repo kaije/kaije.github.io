@@ -3,11 +3,12 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
 
 body {
   font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 1em;
   font-weight: 400;
   color: #424242;
   text-align: center;
   width: 100%;
+  margin-top: 4em;
 }
 
 a {
@@ -16,13 +17,14 @@ a {
 
 .site-heading {
   text-transform: uppercase;
-  font-size: 48px;
+  font-size: 3em;
   font-weight: bold;
   text-align: center;
   line-height: 1.5;
 }
 
 .site-intro {
+  font-size: 1.5em;
   font-weight: 500;
   color: #a6a6a6;
 }
@@ -30,11 +32,11 @@ a {
 .site-links {
   margin-top: 0;
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  font-size: 25px;
+  font-size: 1.5em;
 }
 
 .site-links a {
@@ -51,9 +53,9 @@ a {
 
 .site-links a .link-text { 
   visibility: hidden;
-  font-size: 16px;
+  font-size: 0.75em;
   position: absolute;
-  top: 35px;
+  top: 30px;
   left: 50%;
   transform: translate(-50%, 0%); 
 }
