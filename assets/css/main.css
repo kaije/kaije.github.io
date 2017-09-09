@@ -1,5 +1,5 @@
 /* Resets */
-body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
+body, h1, h2, h3, h4, h5, h6, main, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
 body {
   font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
@@ -8,7 +8,7 @@ body {
   color: #424242;
   text-align: center;
   width: 100%;
-  padding: 3vw;
+  height: 100%;
 }
 
 h1 { 
@@ -17,6 +17,7 @@ h1 {
   font-weight: bold;
   text-align: center;
   line-height: 1.5;
+  padding-top: 1em;
 }
 
 a {
@@ -32,7 +33,7 @@ a {
 .site-links {
   margin-top: 0;
   position: absolute;
-  top: 40%;
+  bottom: 10%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -62,6 +63,30 @@ a {
 
 .site-links a:hover .link-text { 
   visibility: visible; 
+}
+
+@media screen and (max-width: 800px) {
+
+  .site-links {
+    font-size: 3em;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 8em;
+  }
+
+  .site-intro {
+    font-size: 3.5em;
+  }
+
+  .site-links {
+    font-size: 4em;
+  }
+
 }
 
 
